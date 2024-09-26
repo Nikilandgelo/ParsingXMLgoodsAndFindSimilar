@@ -36,7 +36,7 @@ This repository contains a **Python application** designed to download, process,
 
     ```bash
     git clone https://github.com/Nikilandgelo/ParsingXMLgoodsAndFindSimilar.git
-    cd your_repository
+    cd ParsingXMLgoodsAndFindSimilar
     ```
 2. Start the services using `Docker Compose`:
    
