@@ -24,10 +24,14 @@ This repository contains a **Python application** designed to download, process,
 - A `.env` file in the root directory containing the following environment variables:
   
     ```env
-    POSTGRES_USER=your_user
-    POSTGRES_PASSWORD=your_password
-    POSTGRES_DB=your_database
-    ELASTIC_PASSWORD=your_elastic_password
+    POSTGRES_USER=<your_user>
+    POSTGRES_PASSWORD=<your_password>
+    POSTGRES_DB=<your_database>
+    
+    ELASTIC_PASSWORD=<your_elastic_password>
+    discovery.type=single-node
+    xpack.security.http.ssl.enabled=false
+    
     AMOUNT_OF_CONCURRENT_PRODUCTS=25           # Adjust this value based on your needs
     ```
 
